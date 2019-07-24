@@ -6,6 +6,9 @@
 // Fazendo a requisição da classe filha ao carregar a página. Como estamos declarando a classe filha, e ela utiliza a classe pai, não precisamos mais chamar a classe pai
 require_once("classes/MinhaClasseFilha.php");
 
+// Fazendo a requisição da classe Pessoa ao carregar a página.
+require_once("classes/Pessoa.php");
+
 ?>
 
 <!DOCTYPE html>
@@ -77,7 +80,7 @@ require_once("classes/MinhaClasseFilha.php");
 
 			<article class="col-12">
 
-				<h1>Revisão de POO <a href="https://github.com/Marcelo-Diament/poo-revisao" title="Acesse o repositório para ver os códigos em PHP" rel="noreferrer"><i class="fab fa-github"></i></a></h1>
+				<h1>Revisão de POO <a href="https://github.com/Marcelo-Diament/poo-revisao" target="_blank" title="Acesse o repositório para ver os códigos em PHP" rel="noreferrer"><i class="fab fa-github"></i></a></h1>
 
 			</article>
 
@@ -223,6 +226,31 @@ require_once("classes/MinhaClasseFilha.php");
 
 			<!-- ### OBJETO DA CLASSE FILHA ### -->
 
+
+			<!-- ### OBJETO DA CLASSE PESSOA ### -->
+
+				<article class="col-12">
+
+					<h2>Objeto criado a partir da classe Pessoa</h2>
+						
+						<?php
+
+						// ### INSTANCIANDO NOVO OBJETO DE CLASSE PESSOA
+
+							// Instanciando um objeto a partir da classe Pessoa. Ao instanciarmos já ativaremos as funções set() e get() para cada parâmetro da função (que são as propriedades do novo objeto)
+							$novaPessoa = new Pessoa("Marcelo", 31, "brasileiro");
+							
+							// Chamando a função que exibe as informações concatenadas com algum texto
+							$novaPessoa->exibirInfo();
+
+						// ### INSTANCIANDO NOVO OBJETO DE CLASSE PESSOA
+
+						?>
+
+				</article>
+
+
+			<!-- ### OBJETO DA CLASSE PESSOA ### -->
 
 
 		</section>
