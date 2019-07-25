@@ -43,7 +43,7 @@ require_once("classes/Pessoa.php");
 	<meta name="og:region" content="SP">
 	<meta name="og:country-name" content="BR">
 	<meta property="og:type" content="website">
-	<meta property="og:image" content="https://djament.com.br/img/logo-fardas-guara.png">
+	<meta property="og:image" content="https://br.digitalhouse.com/wp-content/themes/dh/assets/img/icons/apple-icon-60x60.png">
 	<meta property="og:image:alt" content="Djament | Desenvolvimento de Sites">
 	<meta property="og:image:url" content="https://br.digitalhouse.com/wp-content/themes/dh/assets/img/icons/apple-icon-60x60.png">
 	<meta property="og:image:type" content="img/png">
